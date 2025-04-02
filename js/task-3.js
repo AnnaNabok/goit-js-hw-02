@@ -5,8 +5,8 @@
 
 function checkForSpam(message) {
   let isSpam =
-    message.toLowerCase.includes("spam") ||
-    message.toLowerCase.includes("sale");
+    message.toLowerCase().includes("spam") ||
+    message.toLowerCase().includes("sale");
   return isSpam;
 }
 
